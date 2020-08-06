@@ -20,6 +20,13 @@ body {
   flex: 0.9;
 }
 
+.app__left > h5 {
+  display: flex;
+  color: gray;
+  margin-top: 20px;
+  justify-content: center;
+}
+
 .app__header {
   display: flex;
   justify-content: space-between;
@@ -28,8 +35,8 @@ body {
 }
 
 .app__header > h1 {
-  color: red;
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .app__stats {
@@ -50,6 +57,7 @@ body {
 
 .app__graph {
   flex-grow: 1;
+  margin-bottom: 10px;
 }
 
 .app__graphTitle {
